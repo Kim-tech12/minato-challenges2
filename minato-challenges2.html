@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minato 企業課題募集</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f4f4f4; }
+        .container { max-width: 1920px; height: 1080px; margin: auto; padding: 20px; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto; gap: 20px; }
+
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+        .company-name { font-size: 24px; font-weight: bold; }
+        .basic-info { text-align: right; }
+
+        .section { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        .full-width { grid-column: span 2; }
+        h2 { border-bottom: 2px solid #333; padding-bottom: 5px; margin-bottom: 15px; }
+
+        .left-column, .right-column { display: flex; flex-direction: column; gap: 20px; }
+
+        .photo { max-width: 100%; height: auto; margin-top: 10px; }
+        .two-column { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+
+        .box { padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        .box h3 { margin: 0 0 10px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header full-width">
+            <div class="company-name">○○株式会社</div>
+            <div class="basic-info">
+                <p>期間: 2025年4月〜5月</p>
+                <p>提出形式: PowerPoint</p>
+                <p>プレゼンあり</p>
+            </div>
+        </div>
+        
+        <div class="section full-width">
+            <h2>課題名</h2>
+            <p>例) 大学生が、「KANDOで働きたい！」と思ってもらえる就職説明会プレゼンを考えてください。</p>
+        </div>
+
+        <div class="two-column">
+            <div class="left-column">
+                <div class="box">
+                    <h3>会社概要</h3>
+                    <p>会社の概要や事業内容を簡単に紹介。</p>
+                </div>
+                
+                <div class="box">
+                    <h3>課題</h3>
+                    <p>企業が現在直面している具体的な課題を説明。</p>
+                </div>
+                
+                <div class="box">
+                    <h3>利用イメージ</h3>
+                    <p>minatoの活用イメージや、どのように学生が関われるかを説明。</p>
+                </div>
+                
+                <div class="box">
+                    <h3>minato担当者からのワンポイントアドバイス</h3>
+                    <p>課題に取り組む学生へのアドバイスを記載。</p>
+                </div>
+            </div>
+
+            <div class="right-column">
+                <div class="box">
+                    <h3>成長機会</h3>
+                    <p>例：「ビジネス視点を持って課題解決に挑戦！」</p>
+                </div>
+
+                <div class="two-column">
+                    <div class="box">
+                        <h3>企業担当者からのメッセージ</h3>
+                        <img src="placeholder.jpg" alt="企業担当者の写真" class="photo">
+                        <p>担当者の一言コメント。</p>
+                    </div>
+                    
+                    <div class="box">
+                        <h3>説明会</h3>
+                        <p>説明会の日時や参加方法について記載。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
